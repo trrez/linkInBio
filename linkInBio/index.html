@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatiana Gutierrez - Links</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+    <script>
+        window.addEventListener('DOMContentLoaded', () =>{
+            VANTA.CLOUDS({
+                el: "#vanta",
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00
+            })
+
+            setTimeout(() => {
+                const main = document.querySelector("main")
+                main.style.opacity = 1
+                main.style.filter = "blur(0px)"
+            }, 500)
+            
+        })
+        
+    </script>
+</head>
+<body>
+    <div id="vanta"></div>
+    <main>
+        <header>
+            <img src="./images/32d4514893e6a8d398f1e93c7a6a9973-sticker 1.png" alt="Tatiana Gutierrez Pic">
+            <h1>@trrez</h1>
+        </header>
+        <ul>
+            <li>
+                <a href="https://github.com/trrez">
+                    <img src="./images/github.svg" alt="Github" width="20">
+                    GitHub
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/trrez/">
+                    <img src="./images/LinkedIn_icon.svg.png" alt="Linkedin" width="20">
+                    Linkedin
+                </a>
+            </li>
+            <li>
+                <a href="https://instagram.com/trrez15">
+                    <img src="./images/instagram.svg" alt="Instagram" width="20">
+                    Instagram
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/trrez15">
+                    <img src="./images/twitter-x-logo-0339F999CF-seeklogo.com.png" alt="Twitter" width="20">
+                    X
+                </a>
+            </li>
+        </ul>
+    </main>
+    
+</body>
+</html>
